@@ -55,8 +55,10 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../images/about.jpg");
+      background: url("../images/Done.jpg");
       border-radius: 50%;
+      background-position: center;
+      object-fit: fill;
       border: 3px solid #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -236,10 +238,6 @@ main {
   margin-bottom: 0.3rem;
   background: #c4c4c4;
   color: #333; }
-
-@media screen and (min-device-width: 1025px) {
-  .projects {
-    grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024) {
   .projects {
